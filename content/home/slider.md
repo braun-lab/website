@@ -15,15 +15,6 @@ interval = 5000
 height = "300px"
 
 [[item]]
-  title = "Dynamic oceanography"
-  content = ""
-  align = "center"
-
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "headers/perpetual_ocean.png"  
-  overlay_filter = 0.2  # Darken the image. Value in range 0-1.
-
-[[item]]
   title = "Pelagic ecology"
   content = ""
   align = "center"
@@ -31,7 +22,17 @@ height = "300px"
   overlay_color = "#333"  # An HTML color value.
   overlay_img = "headers/savetsky_night_blue.jpeg"  
   overlay_filter = 0.2  # Darken the image. Value in range 0-1.
-  overlay_caption =   "Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)"
+  overlay_caption =   "Image credit: Eric Savetsky"
+  
+[[item]]
+  title = "Dynamic oceanography"
+  content = ""
+  align = "center"
+
+  overlay_color = "#333"  # An HTML color value.
+  overlay_img = "headers/perpetual_ocean.png"  
+  overlay_filter = 0.2  # Darken the image. Value in range 0-1.
+  overlay_caption =   "Image credit: NASA Perpetual Ocean"
 
 
 [[item]]
@@ -42,4 +43,6 @@ height = "300px"
   overlay_color = "#333"  # An HTML color value.
   overlay_img = "headers/thorrold_market.png"  
   overlay_filter = 0.2  # Darken the image. Value in range 0-1.
+  overlay_caption =   "Image credit: Simon Thorrold"
+
 +++
